@@ -1,4 +1,10 @@
-package oop;
+/*the veeva systems specializes in a cloud based s/w in a cloud there will be documents which are accessed by differen user.now implement 
+    a light weight simulation of a concurrent document managemet system that grants or desires locks on documents to users and release locks 
+    on documents  now design and imlement document lock manager class witrh following methods 1.request_lock (Dtring dco id,String userId,int timestamp) 
+    this method grants a lock to user if the document is not already locked by someone else return true if successfult 
+    2)realease lock(String docid,String user_id) it realeases the lock if holding user request it return true if succesfullly released and false
+    otherwise 3)cleanexpiredLocks(int timestamp,int duration) these emthod releases all the Logs that have been longer than allowed duration relative to 
+    current timestamppackage oop;*/
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
